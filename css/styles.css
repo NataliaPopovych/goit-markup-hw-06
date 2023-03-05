@@ -638,13 +638,8 @@ letter-spacing: 0.02em;
 color: var(--lead-color);
 }
 .footer-link{
-<<<<<<< HEAD
-margin-right: auto;
-=======
   margin-left: 120px;
-  margin-right: 80px;
->>>>>>> parent of 7a06eb2 (bm)
-}
+  margin-right: 80px;}
 .advantages-item {
   display: flex;
   height: 112px;
@@ -656,16 +651,11 @@ margin-right: auto;
 }
 .footer-container{
   display: flex;
-<<<<<<< HEAD
-  gap: 120px;
-=======
   
 }
 .container-form{
   height: 80px;
 width: 453px;
-
->>>>>>> parent of 7a06eb2 (bm)
 }
 /*Modal*/
 .backdrop{
@@ -727,8 +717,6 @@ color 250ms var(--time-transition);
 .modal-button:focus{
   background-color:var(--primary-button-color);
   color: #ffffff;
-<<<<<<< HEAD
-=======
 }
 .modal-form{
   padding: 24px;
@@ -802,7 +790,7 @@ color 250ms var(--time-transition);
   color: rgba(117, 117, 117, 0.5);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;}
-  .consent-checkbox {
+  .modal-checkbox {
     display: flex;
     align-items: center;
     text-align: left;
@@ -943,6 +931,5 @@ color 250ms var(--time-transition);
 .icon-subscribe{
   width: 24px;
   height: 20px;
-  fill:var(--lead-color)
->>>>>>> parent of 7a06eb2 (bm)
+  fill:var(--lead-color);
 }
