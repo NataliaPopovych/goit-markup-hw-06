@@ -736,10 +736,11 @@ color 250ms var(--time-transition);
     text-align: left;
     font-size: 12px;
     letter-spacing: 0.04em;
-    line-height: 1.3333;
-    color: var(--border-color);
-    margin-top: 4px;
     margin-bottom: 8px;
+    line-height: 1.3333;
+    color: var(--border-color);}
+    .form-label.comment{
+    margin-bottom: 0;
 }
 
 .form-input {
@@ -780,7 +781,13 @@ color 250ms var(--time-transition);
   left: 16px;
   transform: translateY(-10%);
 }
-
+.modal-container{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
 .comment-modal {
   display: block;
   resize: none;
@@ -795,7 +802,6 @@ color 250ms var(--time-transition);
     display: flex;
     align-items: center;
     text-align: left;
-    margin-top: 16px;
 }
 .checkbox {
   appearance: none;
@@ -835,6 +841,7 @@ color 250ms var(--time-transition);
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 .button-send {
   display: flex;
@@ -842,7 +849,6 @@ color 250ms var(--time-transition);
   align-items: center;
   width: 169px;
   height: 56px;
-  margin-top: 24px;
   padding: 0;
   color: var(--lead-color);
   background: var(--logo-color);
